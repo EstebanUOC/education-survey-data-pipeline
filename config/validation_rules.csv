@@ -1,0 +1,13 @@
+rule_id,column,check,min,max,severity,description
+R01,child_id,not_missing,,,error,Every row must have a child identifier
+R02,child_id,unique_per_wave,,,error,A child can appear only once per school and assessment wave
+R03,birth_date,not_missing,,,error,Birth date is required to compute age
+R04,age_months,range,36,84,error,Kindergarten children must be between 3 and 7 years old (36-84 months)
+R05,age_months,cohort_match,,,warning,Age must be consistent with the declared school year (P3/P4/P5)
+R06,vocabulary,range,0,40,error,Vocabulary score out of the test range (0-40)
+R07,phonological_awareness,range,0,30,error,Phonological awareness score out of range (0-30)
+R08,letter_knowledge,range,0,27,error,Letter knowledge score out of range (0-27)
+R09,vocabulary,not_missing,,,warning,Missing vocabulary score
+R10,phonological_awareness,not_missing,,,warning,Missing phonological awareness score
+R11,letter_knowledge,not_missing,,,warning,Missing letter knowledge score
+R12,assessment_date,after_birth,,,error,Assessment date must be after birth date

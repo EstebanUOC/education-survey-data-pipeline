@@ -1,0 +1,13 @@
+school_id,records,errors,warnings,status
+S01,33,3,0,needs follow-up
+S02,50,0,1,passed
+S03,49,10,0,needs follow-up
+S04,44,0,1,passed
+S05,51,3,1,needs follow-up
+S06,36,1,1,needs follow-up
+S07,54,0,0,passed
+S08,52,0,0,passed
+S09,56,1,1,needs follow-up
+S10,56,0,1,passed
+S11,36,1,1,needs follow-up
+S12,32,2,1,needs follow-up

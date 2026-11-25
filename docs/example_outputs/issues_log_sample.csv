@@ -1,0 +1,15 @@
+school_id,wave,child_id,source_file,source_row,rule_id,severity,column,value,description
+S01,post,S01-001,school_S01.xlsx,2,R02,error,child_id,S01-001,A child can appear only once per school and assessment wave
+S01,post,S01-001,school_S01.xlsx,18,R02,error,child_id,S01-001,A child can appear only once per school and assessment wave
+S03,post,S03-001,school_S03.xlsx,2,R02,error,child_id,S03-001,A child can appear only once per school and assessment wave
+S03,post,S03-001,school_S03.xlsx,26,R02,error,child_id,S03-001,A child can appear only once per school and assessment wave
+S05,post,S05-001,school_S05.xlsx,2,R02,error,child_id,S05-001,A child can appear only once per school and assessment wave
+S05,post,S05-001,school_S05.xlsx,27,R02,error,child_id,S05-001,A child can appear only once per school and assessment wave
+S03,pre,S03-002,school_S03.xlsx,3,R04,error,age_months,34.7,Kindergarten children must be between 3 and 7 years old (36-84 months)
+S03,pre,S03-003,school_S03.xlsx,4,R04,error,age_months,35.1,Kindergarten children must be between 3 and 7 years old (36-84 months)
+S03,pre,S03-009,school_S03.xlsx,10,R04,error,age_months,35.2,Kindergarten children must be between 3 and 7 years old (36-84 months)
+S03,pre,S03-011,school_S03.xlsx,12,R04,error,age_months,35.7,Kindergarten children must be between 3 and 7 years old (36-84 months)
+S03,pre,S03-014,school_S03.xlsx,15,R04,error,age_months,34.5,Kindergarten children must be between 3 and 7 years old (36-84 months)
+S03,pre,S03-017,school_S03.xlsx,18,R04,error,age_months,34.6,Kindergarten children must be between 3 and 7 years old (36-84 months)
+S03,pre,S03-023,school_S03.xlsx,24,R04,error,age_months,35.6,Kindergarten children must be between 3 and 7 years old (36-84 months)
+S12,pre,S12-005,school_S12.xlsx,6,R04,error,age_months,88.4,Kindergarten children must be between 3 and 7 years old (36-84 months)
